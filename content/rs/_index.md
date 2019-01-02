@@ -13,7 +13,7 @@ You can install RS in your environment of choice, whether for an on-premises dat
 
 Note: The previous name of Redis Enterprise Software (RS) was “Redis Labs Enterprise Cluster” (RLEC).
 
-## What does RS enable?
+## What are the benefits of using RS?
 
 RS’s architecture supports multiple threaded Redis databases created for multiple users across the same cluster infrastructure while keeping the databases completely isolated from one another. In addition, RS gives you the flexibility to run your Redis database in multiple configurations to accommodate your specific performance and availability needs.
 
@@ -54,10 +54,9 @@ achieve high availability, disaster recovery, and performance benefits.
 If a node fails, the data is seamlessly served from a replacement node
 in the cluster without human intervention. RS technology is capable of
 automatically handling node failures, Redis failures, and proxy
-failures. Auto-failover is carried out within a few seconds. [Learn more
-about High
-Availability]({{< relref "/rs/concepts/high-availability/_index.md" >}})
-in RS.
+failures. Auto-failover is carried out within a few seconds.
+
+[Learn more about High Availability in RS]({{< relref "/rs/concepts/high-availability/_index.md" >}}).
 
 {{< youtube qIZuW_8bPtQ >}}
 
@@ -65,7 +64,7 @@ in RS.
 
 RS enables the use of Redis AOF (Append-Only File) every second or on
 every write, or (RDB) snapshots of your dataset every 1, 6, or 12 hours
-to persistent to storage. In addition, you can back up your dataset
+to persistent storage. In addition, you can back up your dataset
 periodically or ad-hoc to an FTP server or AWS S3. Other cloud storage
 options, such as Azure Geo-Redundant Storage, SoftLayer Object Storage,
 and Google Cloud Storage, will be added in a future release.
@@ -100,5 +99,5 @@ data-persistence tuning, shards migration and auto-failover needs.
 
 ### 24/7 support
 
-Paying customers enjoy our premium 24/7 support via Redis Labs' online
-or phone helpdesk.
+Paying customers enjoy our premium 24/7 support through Redis Labs online
+or phone support services.

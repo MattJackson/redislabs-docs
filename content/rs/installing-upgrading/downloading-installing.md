@@ -40,6 +40,10 @@ instances]({{< relref "/rs/installing-upgrading/configuring-aws-instances.md" >}
     on all nodes to be part of the cluster.
 1. Ensure you have root level access to each node, either directly or
     via sudo.
+1. When port 53 is in use, the installation fails. This is known to happen in 
+    default Ubuntu 18.04 installations in which systemd-resolved (DNS server) is running. 
+    To workaround this issue, change the system configuration to make this port available 
+    before running RS installation.
 
 ## Installation Procedure
 
